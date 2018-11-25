@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+
+<!-- Mirrored from bot.eggsybot.xyz/komutlar by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Nov 2018 00:25:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="https://bot.eggsybot.xyz/pub/img/fav.ico">
+    <meta name="author" content="EGGSY#3388">
+    <meta name="keywords" content="eggsy,eggsys,discord,bot,eggsybot">
+    <meta property="og:site_name" value="EGGSY's Bot" />
+    <meta property="og:image" content="https://bot.eggsybot.xyz/pub/img/discord/botlogo.jpg" />
+    <meta name="theme-color" content="#6355e8" />
+    <meta charset="UTF-8">
+
+    <link href="../fonts.googleapis.com/css6a9d.css?family=Poppins:100,200,400,300,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://bot.eggsybot.xyz/pub/css/linearicons.css">
+    <link rel="stylesheet" href="https://bot.eggsybot.xyz/pub/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://bot.eggsybot.xyz/pub/css/bootstrap.css">
+    <link rel="stylesheet" href="https://bot.eggsybot.xyz/pub/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://bot.eggsybot.xyz/pub/css/nice-select.css">
+    <link rel="stylesheet" href="https://bot.eggsybot.xyz/pub/css/hexagons.min.css">
+    <link rel="stylesheet" href="https://bot.eggsybot.xyz/pub/css/animate.min.css">
+    <link rel="stylesheet" href="https://bot.eggsybot.xyz/pub/css/owl.carousel.css">
+    <link rel="stylesheet" href="https://bot.eggsybot.xyz/pub/css/main.css">
+
+    <meta name="description" content="Bu sayfaya girerek EGGSY's Discord botunun tüm komutlarına ulaşabilir ve komut arayabilirsiniz.">
+    <title>Komutlar | EGGSY's Discord Botu</title>
+</head>
+
+<body>
+    <header id="header" id="home">
+        <div class="container main-menu">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="index.html"><img src="https://bot.eggsybot.xyz/pub/img/logo.png" alt="" title="" /></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li class="menu-active"><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="dash.html">Panel</a></li>
+                        <li><a href="satis.html">Satış</a></li>
+                        <li><a href="komutlar.html">Komutlar</a></li>
+                        <li><a href="sss.html">SSS</a></li>
+                        <li><a href="../api.eggsybot.xyz/index.html" target="_blank">API</a></li>
+                        <li><a href="../eggsybot.xyz/blog/index.html">Blog</a></li>
+                        <li><a href="irtibat.html">İrtibat</a></li>
+                        <li><a href="davet.html">Ekle</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner-area relative" id="home">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="about-content col-lg-12">
+                    <h1 class="text-white">
+                        Komutlar
+                    </h1><br>
+                    <input type="text" id="aramaKutusu" onkeyup="ara()" placeholder="Komut ismi ara..." title="Komut ismini girin...">
+
+                    <ul class="tabs">
+                        <li data-tab="unclickable">Kategoriler: </li>
+                        <li class="tab-link current" data-tab="tab-1">Eğlence</li>
+                        <li class="tab-link" data-tab="tab-2">Kullanıcı</li>
+                        <li class="tab-link" data-tab="tab-3">Yetkili</li>
+                        <li class="tab-link" data-tab="tab-4">Ekstra</li>
+                        <li class="tab-link" data-tab="tab-5">Ücretli</li>
+                        <li data-tab="unclickable">Prefix: !!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" style="padding: 30px 30px;">
+        <div class="row d-flex align-items-center justify-content-center" style="overflow-x:auto;">
+            <div id="tab-1" class="tab-content current" style="overflow-x:auto;">
+                <table id="eglence">
+                    <tr class="header" style="overflow-x:auto;">
+                        <th style="width:15%;">İsim</th>
+                        <th style="width:60%;">Açıklama</th>
+                        <th style="width:25%;">Kullanım</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            anime
+                        </td>
+                        <td>
+                            Rastgele anime fotoğrafları gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            ascii
+                        </td>
+                        <td>
+                            Yazdığınız yazıyı ASCII formatına dönüştürür.
+                        </td>
+                        <td>
+                            ascii EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            aşkölçer
+                        </td>
+                        <td>
+                            Belirttiğiniz kişi ile aranızdaki aşkın derecesini gösterir.
+                        </td>
+                        <td>
+                            aşkölçer @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            caps
+                        </td>
+                        <td>
+                            Yüklediğiniz resim ve belirttiğiniz yazılar ile bir caps oluşturur.
+                        </td>
+                        <td>
+                            caps Üst Yazı/Alt Yazı
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            cowsay
+                        </td>
+                        <td>
+                            Yazdığınız mesajı bir inek mesajına dönüştürür.
+                        </td>
+                        <td>
+                            cowsay EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            csgosunucu
+                        </td>
+                        <td>
+                            Yazdığınız IP&#39;li CS:GO sunucusunun bilgilerini gönerir.
+                        </td>
+                        <td>
+                            csgosunucu 185.185.185.185
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            emojibul
+                        </td>
+                        <td>
+                            Yazılan isimde bir emojiyi botun olduğu tüm sunucularda arar.
+                        </td>
+                        <td>
+                            emojibul hello
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            emojiyazı
+                        </td>
+                        <td>
+                            Yazdığınız yazıları Discord emoji harflerine dönüştürür.
+                        </td>
+                        <td>
+                            emojiyazı naber
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            faceapp
+                        </td>
+                        <td>
+                            Yüzlere belirtilen efekti ekleyen Faceapp uygulaması ile, yüklediğiniz resme yazdığınız efekti ekler.
+                        </td>
+                        <td>
+                            faceapp smile
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            gif
+                        </td>
+                        <td>
+                            Belirli hareketli resimler gönderir.
+                        </td>
+                        <td>
+                            gif Kingsman
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            hapishane
+                        </td>
+                        <td>
+                            Profil resimlerine hapishane efekti ekler.
+                        </td>
+                        <td>
+                            hapishane @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            jumbo
+                        </td>
+                        <td>
+                            Özel emojileri resim olarak gönderir.
+                        </td>
+                        <td>
+                            jumbo :eggsy:
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            kaçcm
+                        </td>
+                        <td>
+                            ಠ⌣ಠ
+                        </td>
+                        <td>
+                            kaçcm @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            kedi
+                        </td>
+                        <td>
+                            Rastgele kedi fotoğrafları gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            köpek
+                        </td>
+                        <td>
+                            Rastgele köpek fotoğrafları gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            magik
+                        </td>
+                        <td>
+                            Belirtilen kullanıcının profil fotoğrafına magik efekti ekler.
+                        </td>
+                        <td>
+                            magik @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            mcbaşarım
+                        </td>
+                        <td>
+                            Yazdığınız şeyleri bir Minecraft başarımına dönüştürür.
+                        </td>
+                        <td>
+                            mcbaşarım EGGSY&#39;s/Minecraft Komutu!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            mcsunucu
+                        </td>
+                        <td>
+                            Belirtilen Minecraft sunucusunun bilgilerini gösterir.
+                        </td>
+                        <td>
+                            mcsunucu play.craftrise.tc
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            minecraft
+                        </td>
+                        <td>
+                            İstediğiniz oyuncunun Minecraft bilgilerini verir.
+                        </td>
+                        <td>
+                            minecraft kafa EGGSY_DBL
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            pixel
+                        </td>
+                        <td>
+                            Belirtilen kullanıcıya belirtilen miktarda pixel efekti uygular.
+                        </td>
+                        <td>
+                            pixel @EGGSY 30
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            rastgelegif
+                        </td>
+                        <td>
+                            Yazdığınız şey ile ilgili rastgele gifler arar.
+                        </td>
+                        <td>
+                            rastgelegif Kingsman
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            ressam
+                        </td>
+                        <td>
+                            Profil resimlerine Ressam Bob efekti ekler.
+                        </td>
+                        <td>
+                            ressam @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            rip
+                        </td>
+                        <td>
+                            Sizin veya belirtilen kullanıcının resmine mezar taşı efekti ekler.
+                        </td>
+                        <td>
+                            rip @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            sarıl
+                        </td>
+                        <td>
+                            Belirtilen kullanıcıya sarılır.
+                        </td>
+                        <td>
+                            sarıl @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            sor
+                        </td>
+                        <td>
+                            Yapay zekaya soru sormanızı sağlar.
+                        </td>
+                        <td>
+                            sor Naber?
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            tkm
+                        </td>
+                        <td>
+                            Bot ile taş-kağıt-makas oyunu oynatır.
+                        </td>
+                        <td>
+                            tkm taş
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            tokat
+                        </td>
+                        <td>
+                            Etiketlenen kullanıcıyı tokatlar.
+                        </td>
+                        <td>
+                            tokat @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            trigger
+                        </td>
+                        <td>
+                            Profil resimlerine &#34;TRIGGERED&#34; efekti ekler.
+                        </td>
+                        <td>
+                            trigger @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            wasted
+                        </td>
+                        <td>
+                            Profil resimlerine &#34;wasted&#34; efekti ekler.
+                        </td>
+                        <td>
+                            wasted @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            öldür
+                        </td>
+                        <td>
+                            Belirtilen kullanıcıyı öldürür.
+                        </td>
+                        <td>
+                            öldür @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            öp
+                        </td>
+                        <td>
+                            Belirtilen kullanıcıyı öper.
+                        </td>
+                        <td>
+                            öp @EGGSY
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div id="tab-2" class="tab-content" style="overflow-x:auto;">
+                <table id="kullanici">
+                    <tr class="header">
+                        <th style="width:15%;">İsim</th>
+                        <th style="width:60%;">Açıklama</th>
+                        <th style="width:25%;">Kullanım</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            afk
+                        </td>
+                        <td>
+                            Durumunuzu AFK olarak ayarlar ve siz gelene kadar sizi etiketleyenlere belirttiğiniz durumu gösterir.
+                        </td>
+                        <td>
+                            afk Kaçtım
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            alternatifler
+                        </td>
+                        <td>
+                            Yazdığınız komutu kullanabilmek için kullanılabilecek alternatif komutları gösterir.
+                        </td>
+                        <td>
+                            alternatifler temizle
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            alıntıla
+                        </td>
+                        <td>
+                            Belirtilen ID&#39;li mesajın bilgilerini alır ve alıntı yapar.
+                        </td>
+                        <td>
+                            alıntıla 1234567890123456789
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            atatürk
+                        </td>
+                        <td>
+                            Rastgele atatürk resimleri gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            aze
+                        </td>
+                        <td>
+                            Profil fotoğrafınıza Azerbaycan bayrağı efekti ekler.
+                        </td>
+                        <td>
+                            aze @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            bot
+                        </td>
+                        <td>
+                            Etiketlenen botun Discord Bot List bilgilerini gösterir.
+                        </td>
+                        <td>
+                            bot @EGGSY&#39;s
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            botbilgi
+                        </td>
+                        <td>
+                            Geçerli bot bilgilerini gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            botsunucusu
+                        </td>
+                        <td>
+                            Botun destek ve eğlence sunucusunun davet linkini gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            csgo
+                        </td>
+                        <td>
+                            CS:GO bilgilerinizi gösterir.
+                        </td>
+                        <td>
+                            csgo abdulbakidrs
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            davet
+                        </td>
+                        <td>
+                            Geçerli sunucu için yeni bir davet linki oluşturur.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            discordbots
+                        </td>
+                        <td>
+                            Botun Discordbots.org&#39;daki profilinin linkini gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            döviz
+                        </td>
+                        <td>
+                            Belirttiğiniz kurun (kodunun, yani &#39;USD&#39; gibi kodların kurunun) durumunu görüntüler.
+                        </td>
+                        <td>
+                            döviz USD
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            ekle
+                        </td>
+                        <td>
+                            Botun sitesini ve davet linkini gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            ekstra
+                        </td>
+                        <td>
+                            Botun ekstra komutlarını gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            embed
+                        </td>
+                        <td>
+                            Ayarlanabilir başlık ve açıklama ile bir embed mesajı oluşturur.
+                        </td>
+                        <td>
+                            embed EGGSY&#39;s/Embed Komutu!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            espri
+                        </td>
+                        <td>
+                            Rastgele espri gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            eğlence
+                        </td>
+                        <td>
+                            Botun eğlence komutlarını gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            günlükmüzik
+                        </td>
+                        <td>
+                            Her gün yenilenen ve kurucunun önerdiği müzik gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            havadurumu
+                        </td>
+                        <td>
+                            Belirtilen şehir için hava durumunu gösterir.
+                        </td>
+                        <td>
+                            havadurumu Konya
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            komutlar
+                        </td>
+                        <td>
+                            Botun komutlarının bulunduğu internet sitesinin linkini gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            konuş
+                        </td>
+                        <td>
+                            Discord&#39;un TTS özelliğini kullanarak sesli mesaj göndermenizi sağlar.
+                        </td>
+                        <td>
+                            konuş Hello EGGSY!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            kullanıcı
+                        </td>
+                        <td>
+                            Botun kullanıcı komutlarını gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            kurucu
+                        </td>
+                        <td>
+                            Sunucunun kurucusunu gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            namazvakti
+                        </td>
+                        <td>
+                            Girdiğiniz şehrin namaz vakitlerini gösterir.
+                        </td>
+                        <td>
+                            namazvakti İstanbul
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            nsfw
+                        </td>
+                        <td>
+                            Seçtiğiniz kategoriden rastgele NSFW (+18) fotoğraflar atar.
+                        </td>
+                        <td>
+                            nsfw 4k
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            oyunbilgi
+                        </td>
+                        <td>
+                            Yazdığınız oyunun Steam bilgisini gösterir.
+                        </td>
+                        <td>
+                            oyunbilgi Portal 2
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            paketler
+                        </td>
+                        <td>
+                            Satılan paketler hakkında bilgi gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            pf
+                        </td>
+                        <td>
+                            Sizin veya etiketlenen kullanıcının profil fotoğrafını gönderir.
+                        </td>
+                        <td>
+                            pf @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            ping
+                        </td>
+                        <td>
+                            Botun gecikme süresini gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            profil
+                        </td>
+                        <td>
+                            Belirtilen kullanıcının ayrıntılı bilgisini gösterir.
+                        </td>
+                        <td>
+                            profil @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            rastgele
+                        </td>
+                        <td>
+                            Belirtilen sayı aralığında rastgele bir sayı seçer.
+                        </td>
+                        <td>
+                            rastgele 10 20
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            sunucu
+                        </td>
+                        <td>
+                            Geçerli sunucunun bilgilerini gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            tarih
+                        </td>
+                        <td>
+                            Saati ve tarihi gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            tr
+                        </td>
+                        <td>
+                            Profil fotoğrafınıza Türk bayrağı efekti ekler.
+                        </td>
+                        <td>
+                            tr @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            vikipedi
+                        </td>
+                        <td>
+                            Yazılan şeyi Vikipedi üzerinde arar ve bilgilerini gösterir.
+                        </td>
+                        <td>
+                            vikipedi Batman
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            yardım
+                        </td>
+                        <td>
+                            Tüm komutları ve eğer belirtirseniz komutlar hakkında bilgileri gösterir.
+                        </td>
+                        <td>
+                            yardım minecraft
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            yazdır
+                        </td>
+                        <td>
+                            Yazdığınz şeyleri bota yazdırmanızı sağlar.
+                        </td>
+                        <td>
+                            yazdır Selam.
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            yetkili
+                        </td>
+                        <td>
+                            Botun yetkili komutlarını gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            çerçeve
+                        </td>
+                        <td>
+                            Profil fotoğraflarına API üzerindeki çerçevelerden ekler.
+                        </td>
+                        <td>
+                            çerçeve @EGGSY balance
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            çeviri
+                        </td>
+                        <td>
+                            Yazdıklarınızı belirttiğiniz dile çevirir.
+                        </td>
+                        <td>
+                            çevir tr Hello world!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            öner
+                        </td>
+                        <td>
+                            Botun sahibine öneri gönderir.
+                        </td>
+                        <td>
+                            öner Daha fazla özellik!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            ücretli
+                        </td>
+                        <td>
+                            Kullanılması için ücret ödenmesi gereken komutları gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div id="tab-3" class="tab-content" style="overflow-x:auto;">
+                <table id="yetkili">
+                    <tr class="header">
+                        <th style="width:15%;">İsim</th>
+                        <th style="width:60%;">Açıklama</th>
+                        <th style="width:25%;">Kullanım</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            ban
+                        </td>
+                        <td>
+                            Etiketlenen kullanıcıyı sunucudan yasaklamayı ve eğer belirtirseniz neden ile birlikte sunucudan yasaklamayı sağlar.
+                        </td>
+                        <td>
+                            ban @EGGSY Çok fazla konuşuyorsun!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            dil
+                        </td>
+                        <td>
+                            Sunucuda botun dilini değiştirir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            duyuru
+                        </td>
+                        <td>
+                            Etiketlediğiniz kanala belirttiğiniz yazıları embed mesajı olarak duyuru başlığı altında gönderir.
+                        </td>
+                        <td>
+                            duyuru #duyuru-kanali Bugün çekiliş var!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            emojisil
+                        </td>
+                        <td>
+                            Belirtilen emojiyi sunucudan siler.
+                        </td>
+                        <td>
+                            emojisil silinecekEmoji
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            emojiyükle
+                        </td>
+                        <td>
+                            Belirtilen link veya yüklenen resmi belirtilen isimle sunucuya emoji olarak ekler.
+                        </td>
+                        <td>
+                            emojiyükle https://bot.eggsybot.xyz/logo.png eggsyLogo
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            hoşgeldinresim
+                        </td>
+                        <td>
+                            Hoş geldin ve görüşürüz mesajlarında atılan resimleri değiştirebilmenizi sağlar.
+                        </td>
+                        <td>
+                            hoşgeldinresim otoyol
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            kapat
+                        </td>
+                        <td>
+                            Otomatik çalışan veya sizin ayarladığınız bot özelliklerini kapatmanızı sağlar.
+                        </td>
+                        <td>
+                            kapat otorol
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            karaliste
+                        </td>
+                        <td>
+                            Belirtilen kullanıcının yazdığınız komutu kullanmasını engeller.
+                        </td>
+                        <td>
+                            karaliste @EGGSY kaçcm
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            kayıtkanalı
+                        </td>
+                        <td>
+                            Mesaj değiştirilmesi gibi Discord Audit Log kayıtlarının depolanacağı kanalı ayarlar.
+                        </td>
+                        <td>
+                            kayıtkanalı #kayit-kanali
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            kick
+                        </td>
+                        <td>
+                            Etiketlenen kullanıcıyı sunucudan atmayı ve eğer belirtirseniz neden ile birlikte sunucudan atmayı sağlar.
+                        </td>
+                        <td>
+                            kick @EGGSY Çok fazla konuşuyorsun!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            komutsil
+                        </td>
+                        <td>
+                            `!!özelkomut` komutuyla oluşturulmuş sunucuya özel komutları silmeye yarar.
+                        </td>
+                        <td>
+                            komutsil eggsy
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            küfürfiltresi
+                        </td>
+                        <td>
+                            Sunucu için küfür korumasını açmayı sağlar.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            mesaj
+                        </td>
+                        <td>
+                            Belirtilen kişiye bot sizin yazdığınız mesajı gönderir.
+                        </td>
+                        <td>
+                            mesaj @EGGSY Naber?
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            otomatikyanıtlayıcı
+                        </td>
+                        <td>
+                            Sunucunuza özel, prefix gerektirmeyen özel komut ayarlamanızı sağlar.
+                        </td>
+                        <td>
+                            otomatikyanıtlayıcı selam: Aleyküm selam!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            otorol
+                        </td>
+                        <td>
+                            Giren kullanıcılara bot tarafından otomatik olarak belirtilen rolü vermesini sağlar.
+                        </td>
+                        <td>
+                            otorol @Yeni Üye #otomatik-rol
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            oynuyorreklam
+                        </td>
+                        <td>
+                            Oynuyor yerlerinde Discord reklamı olan kullanıcıları listeler.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            prefixayarla
+                        </td>
+                        <td>
+                            Botun komutlarının başına gelecek ön-eki ayarlamanıza yarar. Kişiselştirdikten sonra kapatana kadar bot, sadece sizin seçtiğiniz prefixli komutlara cevap verecektir.
+                        </td>
+                        <td>
+                            prefixayarla e!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            reklamfiltresi
+                        </td>
+                        <td>
+                            Sunucu için reklam filtresini açmayı sağlar.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            rol
+                        </td>
+                        <td>
+                            Etiketltediğiniz kullanıcıya, etiketlediğiniz rolü verir.
+                        </td>
+                        <td>
+                            rol @EGGSY @Susturulmuş
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            sayaç
+                        </td>
+                        <td>
+                            Sunucuya kullanıcı girişi ve çıkışı yapıldığında belirttiğiniz sayıya ulaşmaya ne kadar kaldığını gösterir.
+                        </td>
+                        <td>
+                            sayaç 200 #sayaç
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            sunucudayasakla
+                        </td>
+                        <td>
+                            Belirtilen komutu geçerli sunucuda yasaklar.
+                        </td>
+                        <td>
+                            sunucudayasakla kaçcm
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            temizle
+                        </td>
+                        <td>
+                            Belirtilen miktarda mesajı siler.
+                        </td>
+                        <td>
+                            temizle 50
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            vkanal
+                        </td>
+                        <td>
+                            Hoş geldin ve görüşürüz mesajlarının gitmesini istediğiniz kanalı ayarlamanızı sağlar.
+                        </td>
+                        <td>
+                            vkanal #hosgeldin
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            yavaşmod
+                        </td>
+                        <td>
+                            Mesaj aralarındaki süre kısıtlamasını ayarlar.
+                        </td>
+                        <td>
+                            yavaşmod 10
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            yazmaengeli
+                        </td>
+                        <td>
+                            Belirtilen kullanıcının tüm kanallardaki yazma yetkisini alır, eğer yazma yetkisi alınmış ise geri verir.
+                        </td>
+                        <td>
+                            yazmaengeli @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            çekiliş
+                        </td>
+                        <td>
+                            Sunucudan rastgele 1 kişi seçer; eğer neden yazarsanız çekilişi başlıklı bir şekilde; eğer rol etiketlerenizde o rol kullanıcıları arasında çekiliş başlatır.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            özelgörüşürüz
+                        </td>
+                        <td>
+                            Görüşürüz mesajlarında sunucunuza özel mesajları gösterebilmenizi sağlar.
+                        </td>
+                        <td>
+                            özelgörüşürüz Görüşürüz -kullanıcı-! -sunucu- seni özleyecek, geriye -sayı- kişi kaldı!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            özelhoşgeldin
+                        </td>
+                        <td>
+                            Hoş geldin mesajlarında sunucunuza özel mesajları gösterebilmenizi sağlar.
+                        </td>
+                        <td>
+                            özelhoşgeldin -sunucu- isimli sunucumuza hoş geldin -kullanıcı-, sunucumuz artık -sayı- kişi!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            özelkomut
+                        </td>
+                        <td>
+                            Sunucunuza özel özel komut ayarlayabilmenizi sağlar. Ayarladığınız komutlar, sunucunuzda geçerli prefix kullanılarak kullanıldığında yukarıdaki örnekte `:` yazısından sonraki yerleri gösterir.
+                        </td>
+                        <td>
+                            özelkomut selam: Aleyküm selam!
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div id="tab-4" class="tab-content" style="overflow-x:auto;">
+                <table id="ekstra">
+                    <tr class="header">
+                        <th style="width:15%;">İsim</th>
+                        <th style="width:60%;">Açıklama</th>
+                        <th style="width:25%;">Kullanım</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            ayarlar
+                        </td>
+                        <td>
+                            Sunucu ayarlarını görüntülemek için kullanılır.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            blog
+                        </td>
+                        <td>
+                            Botun blogunun linkini ve blogdaki son 3 yazıyı gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            destekol
+                        </td>
+                        <td>
+                            Bota nasıl bağış yapabileceğiniz hakkında bilgilendirir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            discrim
+                        </td>
+                        <td>
+                            Botun olduğu sunucularda yazdığınız kullanıcı etiketindeki kullanıcıları listeler.
+                        </td>
+                        <td>
+                            discrim 3388
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            fortnite
+                        </td>
+                        <td>
+                            Belirttiğiniz platformdaki ve gruptaki kullanıcının Fortnite bilgilerini gösterir.
+                        </td>
+                        <td>
+                            fortnite pc solo Tresmos
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            google
+                        </td>
+                        <td>
+                            Belirttiğiniz şeyi Google&#39;da arar ve ilk sonuç hakkında bilgiler verir.
+                        </td>
+                        <td>
+                            google eggsybot
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            hastebin
+                        </td>
+                        <td>
+                            Hastebin sitesine kodunuzu/yazınızı yükler.
+                        </td>
+                        <td>
+                            hastebin https://bot.eggsybot.xyz
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            kappa
+                        </td>
+                        <td>
+                            Kappa emojisi gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            karıştır
+                        </td>
+                        <td>
+                            Girdiğiniz yazıları karıştırır ve gönderir.
+                        </td>
+                        <td>
+                            karıştır Naber, benim adım EGGSY!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            kısalt
+                        </td>
+                        <td>
+                            Belirtilen linki goo.gl ile kısaltır.
+                        </td>
+                        <td>
+                            kısalt https://eggsybot.xyz
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            paketkomutlar
+                        </td>
+                        <td>
+                            `!!özelkomut` komutunu kullanılarak oluşturulmuş sunucuya özel komutları listeler.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            qr
+                        </td>
+                        <td>
+                            Yazdıklarınız ile bir QR kod oluşturur.
+                        </td>
+                        <td>
+                            qr eggsybot.xyz
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            satış
+                        </td>
+                        <td>
+                            Bağış yapıp karşılığında özel özellikler alabileceğiniz sayfamızın bağlantısını gönderir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            shardbilgi
+                        </td>
+                        <td>
+                            Shardlardaki sunucu sayısını, kullanıcı sayısını ve gecikmeyi gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            snipe
+                        </td>
+                        <td>
+                            Belirtilen kanalda silinen son mesajı görüntüler.
+                        </td>
+                        <td>
+                            snipe #genel
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            spotify
+                        </td>
+                        <td>
+                            Spotify&#39;da çalan müzik hakkında bilgiler gösterir.
+                        </td>
+                        <td>
+                            spotify @EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            ters
+                        </td>
+                        <td>
+                            Yazdığınız yazıyı tersine çevirir.
+                        </td>
+                        <td>
+                            ters EGGSY
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            yanıtlayıcılar
+                        </td>
+                        <td>
+                            `!!otomatikyanıtlayıcı` komutunu kullanılarak oluşturulan komutları listeler.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            yasaklananlar
+                        </td>
+                        <td>
+                            Sunucunuzda yasaklanmış komutları gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            youtube
+                        </td>
+                        <td>
+                            Yazdığınız videonun YouTube bilgilerini gösterir.
+                        </td>
+                        <td>
+                            youtube Kingsman Fragman
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            çalışmayanlar
+                        </td>
+                        <td>
+                            Sunucunuzda yasaklanmış komutları gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            özelkomutlar
+                        </td>
+                        <td>
+                            `!!özelkomut` komutunu kullanılarak oluşturulmuş sunucuya özel komutları listeler.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            şarkısözü
+                        </td>
+                        <td>
+                            Belirtilen şarkının sözlerini gönderir.
+                        </td>
+                        <td>
+                            şarkısözü Faded
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            şifreoluştur
+                        </td>
+                        <td>
+                            Belirlediğiniz uzunlukta rastgele bir şifre gönderir.
+                        </td>
+                        <td>
+                            şifreoluştur 10
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div id="tab-5" class="tab-content" style="overflow-x:auto;">
+                <table id="ucretli">
+                    <tr class="header">
+                        <th style="width:15%;">İsim</th>
+                        <th style="width:60%;">Açıklama</th>
+                        <th style="width:25%;">Kullanım</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            bototorol
+                        </td>
+                        <td>
+                            Sunucuya giren botlara belirttiğiniz rolü verir.
+                        </td>
+                        <td>
+                            bototorol @Yeni Bot #otomatik-rol-bot
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            paketayarlar
+                        </td>
+                        <td>
+                            Sunucunun paket ayarlarını gösterir.
+                        </td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            paketkomut
+                        </td>
+                        <td>
+                            Satın aldığınız paketler sayesinde embedli veya resimli komutlar oluşturabilmenizi sağlar.
+                        </td>
+                        <td>
+                            paketkomut **Embed için:**
+paketkomut embed komut-ismi Başlık/Açıklama/Link
+**Resim için:**
+paketkomut resim komut-ismi Resim açıklaması/Resim linki
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            paketkomutsil
+                        </td>
+                        <td>
+                            Paket satın alanların paketlerini kullanarak oluşturdukları komutlarını silmeye yarar.
+                        </td>
+                        <td>
+                            paketkomutsil eggsy
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            reklamengelleme
+                        </td>
+                        <td>
+                            Reklam filtresi açıkken engellenmesini istemediğiniz linkleri ayarlamanızı sağlar.
+                        </td>
+                        <td>
+                            reklamengelleme youtube.com
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            çalışmakanal
+                        </td>
+                        <td>
+                            Botun çalışmasını seçtiğiniz kanallarda engellemeye yarar.
+                        </td>
+                        <td>
+                            çalışmakanal #genel-sohbet
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            özelotorol
+                        </td>
+                        <td>
+                            Ücretli paketlerimizden alanların ayarlayabildiği, kişisel otorol mesajları.
+                        </td>
+                        <td>
+                            özelotorol Merhaba -kullanıcı- (-kullanıcıetiketi-), -sunucu- sunucusuna hoş geldin! Sana -rol- (-roletiketi-) rolünü verdim!
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            özelsayaç
+                        </td>
+                        <td>
+                            Ücretli paketlerimizden alanların ayarlayabildiği, kişisel sayaç mesajları.
+                        </td>
+                        <td>
+                            özelsayaç giriş Merhaba -kullanıcı- (-kullanıcıetiketi-), seninle beraber -hedef- sayısına -sayı- kaldı!
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row footer-bottom d-flex justify-content-between">
+                <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> Tasarım <a href="../colorlib.com/index.html" target="_blank"><i
+                            class="fa fa-heart-o" aria-hidden="true"></i>
+                        Colorlib</a> tarafından yapılmış, EGGSY#3388 tarafından düzenlenmiştir. <a href="tos.html"><i>(ToS)</i></a>
+                    <!-- Colorlib tasarımları CC BY 3.0. lisansı ile lisanslanmıştır. Buradaki linki kaldıramazsınız! (EGGSY) -->
+                </p>
+                <div class="col-lg-4 col-sm-12 footer-social">
+                    <a href="../twitter.com/eggsywashere.html" target="_blank"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://bot.eggsybot.xyz/pub/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/vendor/bootstrap.min.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/easing.min.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/hoverIntent.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/superfish.min.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/jquery.ajaxchimp.min.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/owl.carousel.min.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/hexagons.min.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/jquery.nice-select.min.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/jquery.counterup.min.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/waypoints.min.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/main.js"></script>
+    <script src="https://bot.eggsybot.xyz/pub/js/custom.js"></script>
+    <script>
+        $('ul.tabs li').click(function () {
+            var tab_id = $(this).attr('data-tab');
+            if (tab_id == "unclickable") return;
+
+            $('ul.tabs li').removeClass('current');
+            $('.tab-content').removeClass('current');
+
+            $(this).addClass('current');
+            $("#" + tab_id).addClass('current');
+        });
+    </script>
+</body>
+
+
+<!-- Mirrored from bot.eggsybot.xyz/komutlar by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Nov 2018 00:25:10 GMT -->
+</html>
